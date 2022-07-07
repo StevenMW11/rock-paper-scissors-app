@@ -54,6 +54,3 @@ else:
     print("Your choice was not a valid input, please re-run the program with a valid input of Rock, Paper, or Scissors.")
     print("--------------------------------------------------")
     exit()
-
-
-
