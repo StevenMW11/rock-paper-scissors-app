@@ -2,6 +2,7 @@ from secrets import choice
 import random
 import os
 
+#allow player to input their own name through environment variable
 player_name = os.getenv("PLAYER_NAME", default="Player One")
 
 #create function to run player and computer choices through to determine winner
