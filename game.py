@@ -1,3 +1,4 @@
+#import necessary packages, including random, choice, and os
 from secrets import choice
 import random
 import os
