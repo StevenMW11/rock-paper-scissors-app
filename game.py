@@ -36,7 +36,7 @@ print(f"Welcome {player_name} to Rock, Paper, Scissors, Shoot! Time to play agai
 #define list of valid options
 valid_choices = ["rock", "paper", "scissors"]
 
-#obtain use input, case sensitive the variable with casefold
+#obtain user input, case sensitize the variable with casefold function (makes all uppercase letters lowercase)
 player_choice = input("Choose: Rock, Paper, or Scissors: ").casefold()
 print("--------------------------------------------------")
 #play the game and present the outcome, unless the user inputs an invalid choice
