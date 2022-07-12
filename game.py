@@ -29,30 +29,32 @@ def rock_paper_scissors_outcome(player, computer):
         else:
             print("Rock beats Scissors. The Computer Wins...")
 
-#welcome message
-print("--------------------------------------------------")
-print(f"Welcome {player_name} to Rock, Paper, Scissors, Shoot! Time to play against the Computer.")
+if __name__ == "__main__":
 
-#define list of valid options
-valid_choices = ["rock", "paper", "scissors"]
-
-#obtain user input, case sensitize the variable with casefold function (makes all uppercase letters lowercase)
-player_choice = input("Choose: Rock, Paper, or Scissors: ").casefold()
-print("--------------------------------------------------")
-#play the game and present the outcome, unless the user inputs an invalid choice
-if (player_choice in valid_choices):
-    computer_choice = random.choice(valid_choices)
-
-    print(f"{player_name}'s Choice: ", player_choice)
-    print("Computer's Choice: ", computer_choice)
-    print("")
-
-    rock_paper_scissors_outcome(player_choice,computer_choice)
-    print("")
-
-    print("Thank you for playing. Please play again!")
-    print("--------------------------------------------------") 
-else:
-    print("Your choice was not a valid input, please re-run the program with a valid input of Rock, Paper, or Scissors.")
+    #welcome message
     print("--------------------------------------------------")
-    exit()
+    print(f"Welcome {player_name} to Rock, Paper, Scissors, Shoot! Time to play against the Computer.")
+
+    #define list of valid options
+    valid_choices = ["rock", "paper", "scissors"]
+
+    #obtain user input, case sensitize the variable with casefold function (makes all uppercase letters lowercase)
+    player_choice = input("Choose: Rock, Paper, or Scissors: ").casefold()
+    print("--------------------------------------------------")
+    #play the game and present the outcome, unless the user inputs an invalid choice
+    if (player_choice in valid_choices):
+        computer_choice = random.choice(valid_choices)
+
+        print(f"{player_name}'s Choice: ", player_choice)
+        print("Computer's Choice: ", computer_choice)
+        print("")
+
+        rock_paper_scissors_outcome(player_choice,computer_choice)
+        print("")
+
+        print("Thank you for playing. Please play again!")
+        print("--------------------------------------------------") 
+    else:
+        print("Your choice was not a valid input, please re-run the program with a valid input of Rock, Paper, or Scissors.")
+        print("--------------------------------------------------")
+        exit()
