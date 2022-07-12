@@ -11,7 +11,7 @@ def rock_paper_scissors_outcome(player, computer):
     player_choice = player
     computer_choice = computer
     
-    if player_choice == computer:
+    if player_choice == computer_choice:
         print(f"Both Player and Computer chose {player_choice}. It's a tie game.")
     elif player_choice == "rock":
         if computer_choice == "scissors":
