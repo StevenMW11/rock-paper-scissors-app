@@ -26,6 +26,12 @@ conda create -n my-game-env python=3.8 # (first time only)
 conda activate my-game-env
 ```
 
+We also need to install package dependencies, using the following command-line prompt:
+
+```sh
+pip install -r requirements.txt
+```
+
 Within that virtual environment, run our rock-paper-scissors game calling the following script: 
 
 ```sh
