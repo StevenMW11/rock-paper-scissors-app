@@ -13,21 +13,28 @@ def rock_paper_scissors_outcome(player, computer):
     
     if player_choice == computer_choice:
         print(f"Both Player and Computer chose {player_choice}. It's a tie game.")
+        return None
     elif player_choice == "rock":
         if computer_choice == "scissors":
             print(f"Rock beats Scissors. {player_name} Wins!")
+            return 'rock'
         else:
             print("Paper beats Rock. The Computer Wins...")
+            return 'paper'
     elif player_choice == "paper":
         if computer_choice == "rock":
             print(f"Paper beats Rock. {player_name} Wins!")
+            return 'paper'
         else:
             print("Scissors beats Paper. The Computer Wins...")
+            return 'scissors'
     else:
         if computer_choice == "paper":
             print(f"Scissors beats Paper. {player_name} Wins!")
+            return 'scissors'
         else:
             print("Rock beats Scissors. The Computer Wins...")
+            return 'rock'
 
 if __name__ == "__main__":
 
