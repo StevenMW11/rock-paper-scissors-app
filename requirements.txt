@@ -1,2 +1,2 @@
-# testing:
+# testing for install
 pytest

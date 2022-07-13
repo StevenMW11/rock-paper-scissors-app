@@ -1,4 +1,4 @@
-#import necessary packages, including random, choice, and os
+#import necessary packages, including random, choice, and os for functionality
 from secrets import choice
 import random
 import os

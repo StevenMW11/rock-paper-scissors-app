@@ -1,4 +1,4 @@
-# this is the "game_test.py" file...
+# this is the "game_test.py" file to test the outcome function
 
 from game import rock_paper_scissors_outcome
 

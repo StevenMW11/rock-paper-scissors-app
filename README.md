@@ -1,6 +1,6 @@
 # rock-paper-scissors-app
 
-Welcome to my Rock Paper Scissors application, where you can play rock paper scissors against the computer. Before you can play, there are a few setup steps detailed below 
+Welcome to my Rock Paper Scissors application, where you can play rock paper scissors against the computer. Before you can play, there are a few setup steps detailed below:
 
 ## Setup of Environment
 
