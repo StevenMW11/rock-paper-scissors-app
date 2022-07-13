@@ -13,8 +13,10 @@ Using the Code ("Green Button") in GitHub Online (above), Open the repository wi
 
 Using your command-line (Terminal on Mac, Git Bash on Windows), navigate to the file path of the repository you recently saved to your local desktop
 
-`cd ~/Desktop/rock-paper-scissors-app` 
-(if not saved in the Desktop folder, replace 'Desktop' with the appropriate file path from above)
+```sh
+cd ~/Desktop/rock-paper-scissors-app
+```
+Note: if not saved in the Desktop folder, replace 'Desktop' with the appropriate file path from above
 
 Now, create and activate a new project-specific Anaconda virtual environment to run the rock paper scissors game:
 
@@ -26,7 +28,9 @@ conda activate my-game-env
 
 Within that virtual environment, run our rock-paper-scissors game calling the following script: 
 
-`python game.py`
+```sh
+python game.py
+```
 
 ## Playing the Game
 
@@ -38,7 +42,9 @@ If you spelled one of the above choices correctly, you will be notified of the r
 
 If you want to play a more intimate game, where "you" (your name) is Player 1 rather than the standard "Player 1" title, run the following script to launch the game: 
 
-`PLAYER_NAME="Your Name Here" python game.py` (insert your name in the quotations)
+```sh
+PLAYER_NAME="Your Name Here" python game.py (insert your name in the quotations)
+``` 
 
 ### Further Information - Testing
 
