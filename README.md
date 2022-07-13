@@ -28,7 +28,7 @@ Within that virtual environment, run our rock-paper-scissors game calling the fo
 
 `python game.py`
 
-### Playing the Game
+## Playing the Game
 
 When prompted, please enter your choice of Rock, Paper, or Scissors.
 
