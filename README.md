@@ -40,4 +40,11 @@ If you want to play a more intimate game, where "you" (your name) is Player 1 ra
 
 `PLAYER_NAME="Your Name Here" python game.py` (insert your name in the quotations)
 
+### Further Information - Testing
+
+We have validated the outcome of the game, testing all possible player-computer combinations of choices. To validate for yourself, run the following command line prompt
+
+```sh
+pytest
+```
 
