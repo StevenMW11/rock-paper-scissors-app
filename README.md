@@ -37,3 +37,7 @@ If you spelled one of the above choices correctly, you will be notified of the r
 If you want to play a more intimate game, where "you" (your name) is Player 1 rather than the standard "Player 1" title, run the following script to launch the game: 
 
 `PLAYER_NAME="Your Name Here" python game.py` (insert your name in the quotations)
+
+```sh
+pytest
+```
