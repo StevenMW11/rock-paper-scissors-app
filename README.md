@@ -32,7 +32,7 @@ We also need to install package dependencies, using the following command-line p
 pip install -r requirements.txt
 ```
 
-Within that virtual environment, run our rock-paper-scissors game calling the following script: 
+### Within that virtual environment, run our rock-paper-scissors game calling the following script: 
 
 ```sh
 python game.py
